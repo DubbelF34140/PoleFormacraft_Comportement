@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "PoleFormacraft",
+		"description": "PoleFormacraft",
+		"uuid": "0d04bd2f-1df6-ce17-f71f-2eb98f9cf56e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["PoleFormacraft"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.0.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "PoleFormacraft",
+			"version": [1, 0, 0],
+			"uuid": "6d7873b0-a657-64ae-f6f6-db91c1fe9e9a",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "98ef822a-f791-f78d-b298-b82afd48318e",
+			"version": [1, 0, 0]
+		}
+	]
+}
