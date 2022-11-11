@@ -1,0 +1,15 @@
+{
+	"block": {
+		"BP/blocks/bureaub107.block.json": {
+			"identifiers": [
+				"mdf:bureaub107"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": [
+				"bridge:rotate_y_on_place"
+			]
+		}
+	}
+}

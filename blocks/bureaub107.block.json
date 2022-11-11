@@ -1,0 +1,66 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "mdf:bureaub107",
+			"properties": {
+				"PoleFormacraft_Comportement:rotation": [0, 1, 2, 3]
+			},
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('PoleFormacraft_Comportement:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [0, 180, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('PoleFormacraft_Comportement:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [0, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('PoleFormacraft_Comportement:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [0, 270, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('PoleFormacraft_Comportement:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [0, 90, 0]
+				}
+			}
+		],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.bureaub107",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bureaub107",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#ffffff",
+			"minecraft:on_player_placing":{
+				"event": "set_placing_rotation"
+			}
+		},
+		"events":{
+			"set_placing_rotation": {
+				"set_block_property":{
+					"PoleFormacraft_Comportement:rotation": "math.floor(query.block_face/2)"
+				}
+			}
+		}
+	}
+}

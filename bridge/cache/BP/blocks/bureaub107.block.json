@@ -1,0 +1,150 @@
+{
+	"file_path": "C:\\Users\\yw\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PoleFormacraft_Comportement\\blocks\\bureaub107.block.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "3547e8ba_03ee_4bfe_9b5f_490a893ead52",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.19.40",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.19.40",
+					"minecraft:block": {
+						"description": {
+							"identifier": "mdf:bureaub107",
+							"menu_category": {
+								"category": "construction"
+							}
+						},
+						"components": {
+							"minecraft:destructible_by_mining": {
+								"seconds_to_destroy": 1
+							},
+							"minecraft:destructible_by_explosion": {
+								"explosion_resistance": 30
+							},
+							"minecraft:geometry": "geometry.bureaub107",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "bureaub107",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:map_color": "#ffffff",
+							"bridge:rotate_y_on_place": {
+								"flip": true
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mdf:bureaub107",
+							"menu_category": {
+								"category": "construction"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mdf:bureaub107",
+								"menu_category": {
+									"category": "construction"
+								}
+							},
+							"components": {
+								"minecraft:destructible_by_mining": {
+									"seconds_to_destroy": 1
+								},
+								"minecraft:destructible_by_explosion": {
+									"explosion_resistance": 30
+								},
+								"minecraft:geometry": "geometry.bureaub107",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "bureaub107",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:map_color": "#ffffff",
+								"bridge:rotate_y_on_place": {
+									"flip": true
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:destructible_by_mining",
+								"is_minified": true,
+								"children": {
+									"seconds_to_destroy": 1
+								}
+							},
+							{
+								"key": "minecraft:destructible_by_explosion",
+								"is_minified": true,
+								"children": {
+									"explosion_resistance": 30
+								}
+							},
+							{
+								"data": "geometry.bureaub107",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"texture": "bureaub107",
+										"render_method": "alpha_test"
+									}
+								}
+							},
+							{
+								"data": "#ffffff",
+								"key": "minecraft:map_color"
+							},
+							{
+								"open": {
+									"minecraft:destructible_by_mining": {
+										"seconds_to_destroy": 1
+									},
+									"minecraft:destructible_by_explosion": {
+										"explosion_resistance": 30
+									},
+									"minecraft:geometry": "geometry.bureaub107",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "bureaub107",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:map_color": "#ffffff",
+									"bridge:rotate_y_on_place": {
+										"flip": true
+									}
+								},
+								"key": "bridge:rotate_y_on_place",
+								"is_minified": true,
+								"children": {
+									"flip": true
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
